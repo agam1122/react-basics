@@ -11,6 +11,7 @@ import CheckBoxes from './checkBoxes.jsx';
 
 import Loops from './loops.jsx';
 import Clock from './clock.jsx';
+import Card from './card.jsx';
 
 
 function App(){
@@ -122,6 +123,9 @@ const handleChange = (event) => {
 
       <Clock color={selectedColor} />
 
+
+      <br /><hr />
+      <Card />
 
     </div>
 
